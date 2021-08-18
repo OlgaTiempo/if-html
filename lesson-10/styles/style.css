@@ -1,0 +1,266 @@
+@import url(./font.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page-title {
+  width: 1235px;
+  height: 45px;
+  margin: 120px auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #383838;
+}
+
+.page-navigation {
+  width: 1235px;
+  margin: 104px auto;
+}
+
+.page-navigation::after {
+  display: table;
+  content: '';
+}
+
+.page-navigation input[type=radio] {
+  display: none;
+}
+
+.page-navigation label {
+  width: 192px;
+  height: 64px;
+  background-color: #F3F3F4;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 64px;
+  color: #383838;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: -4px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.page-navigation label:hover {
+  border: 1px solid #3077C6;
+  border-radius: 8px;
+}
+
+.page-navigation [id^="tab"]:checked+label {
+  background: #3077c6;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.page-navigation [id^="tab"]:checked+label:hover {
+  border: none;
+  height: 62px;
+}
+
+#tab-region:checked~#first-content-1,
+#tab-city:checked~#first-content-2,
+#tab-places:checked~#first-content-3 {
+  display: flex;
+}
+
+#first-content-1 {
+  padding-top: 66px;
+}
+
+#first-content-2 {
+  padding-top: 66px;
+}
+
+#first-content-3 {
+  padding-top: 66px;
+}
+
+.page-navigation .last-input {
+  display: inline-block;
+  width: 238px;
+}
+
+.different-destinations {
+  width: 1235px;
+  height: 350px;
+  display: flex;
+  gap: 15px;
+  display: none;
+}
+
+.different-destinations figcaption {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #3077C6;
+  margin-top: 24px;
+}
+
+
+.low-block {
+  width: 1235px;
+  height: 200px;
+  background-color: #EAF0F9;
+  margin: 209px auto;
+  display: flex;
+
+}
+
+.picture-icon {
+  text-align: center;
+  height: 200px;
+  width: 110px;
+  display: table;
+}
+
+.add-div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.button-for-registration {
+  width: 128px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-top: 21px;
+}
+
+.button-for-registration a {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  color: #3077C6;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.low-block p {
+  margin-top: 51px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #383838;
+}
+
+.button-for-book {
+  width: 128px;
+  height: 48px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #3077C6;
+  display: none;
+}
+
+.button-for-book a {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  color: #3077C6;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.page-navigation .last-input-adaptive {
+  display: none;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  .page-title {
+    width: 100%;
+    font-size: 28px;
+    line-height: 33px;
+    margin: 40px auto 32px auto;
+    height: 33px;
+  }
+
+  .page-navigation {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .page-navigation label {
+    width: 98px;
+    height: 32px;
+    border-radius: 4px;
+    font-size: 19px;
+    line-height: 32px;
+    border: 1px solid #F3F3F4;
+    background-color: #ffffff;
+    margin-left: 15px;
+  }
+  .page-navigation [id^="tab"]:checked+label:hover {
+    height: 32px;
+  }
+  
+  .page-navigation .last-input {
+    display: none;
+  }
+
+  .page-navigation .last-input-adaptive {
+    display: inline-block;
+  }
+ 
+  .different-destinations {
+    width: 100%;
+    height: 178px;
+  }
+
+  .images-second {
+    display: none;
+  }
+
+  .different-destinations img {
+    width: 156px;
+    height: 156px;
+  }
+
+  .different-destinations figure:first-child {
+    padding-left: 16px;
+  }
+
+  #first-content-1 {
+    padding-top: 24px;
+  }
+
+  #first-content-2 {
+    padding-top: 24px;
+  }
+
+  #first-content-3 {
+    padding-top: 24px;
+  }
+
+  .different-destinations figcaption {
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 8px;
+    padding-bottom: 40px;
+  }
+
+  .low-block {
+    display: none;
+  }
+}
