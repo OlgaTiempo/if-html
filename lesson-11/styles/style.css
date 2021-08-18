@@ -1,0 +1,275 @@
+@import url(./font.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.block-title {
+  width: 1235px;
+  height: 57px;
+  margin: 120px auto 0 auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #383838;
+}
+
+.block-info {
+  width: 1235px;
+  margin: 104px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.block-info figure {
+  width: 400px;
+}
+
+.hotel-block {
+  width: 400px;
+  position: relative;
+}
+
+.second-picture {
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  height: 48px;
+  background: rgba(56, 56, 56, .7);
+  text-indent: 24px;
+  line-height: 48px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.information-hotel {
+  padding-top: 24px;
+  width: 400px;
+  height: 360px;
+  background-color: #eaf0f9;
+}
+
+.hotel-signature {
+  float: left;
+  line-height: 16px;
+}
+
+.hotel-name {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3077C6;
+  margin-left: 24px;
+  text-decoration: none;
+}
+
+.hotel-address {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3077C6;
+  margin-left: 24px;
+}
+
+.hotel-assessment {
+  float: right;
+}
+
+.value-assess {
+  width: 48px;
+  height: 32px;
+  background-color: #10367C;
+  border-radius: 8px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  float: right;
+  margin-right: 24px;
+}
+
+.number-reviews {
+  margin-top: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.4px;
+  color: #BFBFBF;
+  margin-right: 24px;
+}
+
+.clear {
+  clear: both;
+}
+
+.persons-dates {
+  margin-left: 24px;
+  margin-top: 29px;
+  display: flex;
+}
+
+.add-dates {
+  margin-left: 21px;
+}
+
+.add-dates p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #383838;
+  margin-bottom: 8px;
+}
+
+.add-dates span {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #BFBFBF;
+
+}
+
+.feedback {
+  margin: 24px 24px 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #383838;
+}
+
+.main-block {
+  background-color: #10367C;
+  height: 630px;
+}
+
+.container {
+  width: 1235px;
+  margin: 120px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 135px;
+}
+
+.additional-container {
+  width: 1235px;
+  margin: 0 auto;
+}
+
+.second-list {
+  padding-left: 25px;
+}
+
+.third-list {
+  padding-left: 85px;
+}
+
+.list-options {
+  margin-top: 120px;
+  margin-left: 64px;
+}
+
+.list-options li {
+  margin-bottom: 24px;
+  list-style: none;
+}
+
+.list-options li a {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 23.44px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.container .list-options .titles a {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 23.44px;
+  text-align: left;
+}
+
+.copyright-text {
+  margin-left: 104px;
+  margin-top: 64px;
+  color: #ffffff;
+}
+
+h3 {
+  display: none;
+}
+
+.footer-adaptive {
+  display: none;
+  width: 327px;
+  height: 203px;
+  background-color: #10367C;
+  margin: 0 auto;
+}
+
+.title-footer {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 19px;
+  padding-top: 40px;
+}
+
+.several-links {
+  padding-top: 40px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.several-links a {
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.copy-right-reserved {
+  padding-top: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+.mobile-info {
+  display: none;
+}
