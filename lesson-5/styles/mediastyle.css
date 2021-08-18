@@ -1,0 +1,25 @@
+@media only screen and (max-device-width: 480px) {
+.image-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.big-container {
+  width:100%;
+  padding-top: 24px ;
+}
+.title-of-page {
+  margin-bottom: 35px;
+  font-size: 28px;
+  line-height: 33px;
+}
+.title-line {
+  display: none;
+}
+.item-text {
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 18px;
+}
+}
